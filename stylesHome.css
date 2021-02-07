@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  display: grid;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+  background: #222222;
+  font-family: 'Montserrat', sans-serif;
+  color:#E5E5E5;
+}
+
+/* !NAV BAR */
+.logo{
+  height: 20vh;
+}
+.nav {
+    width: 100vw;
+    height: 15vh;
+    align-items: center;
+    text-align: left;
+    padding-bottom: 0px;
+    padding-right: 4vw;
+    margin-top: 0;
+    display: flex;
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,1);
+}
+
+.rightMenu{
+  margin-left:  auto;
+  padding-right: 3vw;
+}
+
+.nav ul{
+  display: flex;
+  list-style: none;
+}
+
+.rightMenu a{
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  color:#E5E5E5 ;
+  text-transform: capitalize;
+}
+
+.logOut{
+  border: none;
+  font-size: 17px;
+  padding: 12px 20px;
+  border-radius: 3px;
+  margin-top: 0px;
+  background-color: #FF7851;
+}
+
+.midSec{
+  display: flex;
+}
+
+/* !Id Box */
+.idDisp {
+  width: 40vw;
+  height: 75vh;
+}
+
+.pdp{
+  margin-top: 18vh;
+  margin-left: 2vw;
+}
+
+/* !Projects */
+.projects{
+  background-color:red;
+  width: 60vw;
+  height: 75vh;
+  margin: 10px;
+  padding: 15px;
+
+}
+
+/* !FootNotes */
+.bottomBox{
+  height: 10vh;
+  width: 100vw;
+  padding:0;
+}
